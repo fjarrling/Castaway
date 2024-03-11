@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castaway</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <a class="header__logo logo">
+            <img src="icons/logo.svg" alt="logo" class="logo__image">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="" class="header__nav-link header__nav-link-selected" >Home</a></li>
+                <li class="header__nav-item">
+                    <a href="" class="header__nav-link">Episodes</a></li>
+                <li class="header__nav-item">
+                    <a href="" class="header__nav-link">About</a></li>
+                <li class="header__nav-item">
+                    <a href="" class="header__nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="burger header__burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+            
+    </div>
+</header>
+<main>
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__image-container">
+                <img src="icons/hero_decor.svg" alt="decor" class="hero__image-decor">
+                <img src="images/Negro.jpg" alt="nigrila" class="hero__image">
+            </div>
+            <div class="hero__content">
+                <h1 class="hero__title">Take your podcasts to the <span class="underline-text">next</span> <span class="bold-text">level</span></h1>
+                <div class="hero__social-container">
+                    <span class="hero__social-title">Listen on</span>
+                    <ul class="hero__social-list social">
+                        <li class="hero__social-item ">
+                            <a href="" class="hero__social-link hero__social-link--1"></a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="" class="hero__social-link hero__social-link--2"></a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="" class="hero__social-link hero__social-link--3"></a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="" class="hero__social-link hero__social-link--4"></a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="" class="hero__social-link hero__social-link--5"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="episodes">
+        <div class="container episodes__container">
+            <header class="episodes__header">
+                <h2 class="episodes__title">Lastest episodes</h2>
+                <nav class="episodes__nav">
+                    <ul class="episodes__nav-list">
+                        <li class="episodes__nav-item">
+                            <button class="episodes__nav-button episodes__nav-button-is-active">View all episodes</button>
+                        </li>
+                        <li class="episodes__nav-item">
+                            <button class="episodes__nav-button">Gear</button>
+                        </li>
+                        <li class="episodes__nav-item">
+                            <button class="episodes__nav-button">Tips & Tricks</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <ul class="episodes__list">
+                <li class="episodes__item">
+                    <article class="episodes__card">
+                     <img src="images/MPC.jpg" alt="mpc-picture" class="episodes__card-image">
+                        <div class="episodes__card-content">
+                            <a class="episodes__card-category">Gear</a>
+                            <div class="episode__card-index">Episode 3</div>
+                            <h2 class="episodes__card-title">Should you get outboard audio gear?</h2>
+                            <p class="episodes__card-text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up</p>
+                            <button class="episodes__card-button">View Episode Details</button>
+                        </div>
+                    </article>
+                </li>
+                <li class="episodes__item">
+                    <article class="episodes__card">
+                        <img src="images/micro.jpg" alt="mic-picture" class="episodes__card-image">
+                        <div class="episodes__card-content">
+                            <a class="episodes__card-category">Tips & Tricks</a>
+                            <div class="episode__card-index">Episode 2</div>
+                            <h2 class="episodes__card-title">Mic tricks to take you to the next level</h2>
+                            <p class="episodes__card-text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great</p>
+                            <button class="episodes__card-button">View Episode Details</button>
+                        </div>
+                    </article>
+                </li>
+                <li class="episodes__item">
+                    <article class="episodes__card">
+                        <img src="images/3rd-card.jpg" alt="negr-picture" class="episodes__card-image">
+                        <div class="episodes__card-content">
+                            <a class="episodes__card-category">Gear</a>
+                            <div class="episode__card-index">Episode 1</div>
+                            <h2 class="episodes__card-title">The best microphone under $200</h2>
+                            <p class="episodes__card-text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks</p>
+                            <button class="episodes__card-button">View Episode Details</button>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- <section class="slider">
+        <div class="contaider slider__container">
+            <img src="" alt="slider__pic">
+            <span class="slider__legend"></span>
+        </div>
+    </section> -->
+</main>
+<footer class="footer">
+    <div class="container footer__container">
+         <div class="footer__left-container">
+            <a class="footer__logo logo">
+                <img src="icons/logo.svg" alt="logo" class="footer__logo-image">
+            </a>
+            <ul class="footer__network-list">
+                <li class="footer__network-item">
+                    <a href="" class="footer__network-link footer__network-link--1"></a>
+                </li>
+                <li class="footer__network-item">
+                    <a href="" class="footer__network-link footer__network-link--2"></a>
+                </li>
+                <li class="footer__network-item">
+                    <a href="" class="footer__network-link footer__network-link--3"></a>
+                </li>
+            </ul>
+         </div>
+         <div class="footer__link-container">
+            <ul class="footer__link-list">
+                <li class="footer__link-item">
+                    <a href="" class="footer__link">Home</a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="" class="footer__link">About</a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="" class="footer__link">Episodes</a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="" class="footer__link">Contact</a>
+                </li>
+            </ul>
+         </div>
+         <div class="footer__link-container">
+            <ul class="footer__link-list footer__link-list--2">
+                <li class="footer__link-item footer__link-item--2">
+                    <a href="" class="footer__link footer__link--2">Style Guide</a>
+                </li>
+                <li class="footer__link-item footer__link-item--2">
+                    <a href="" class="footer__link">Instructions</a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="" class="footer__link">Changelog</a>
+                </li>
+                <li class="footer__link-item">
+                    <a href="" class="footer__link">Credit</a>
+                </li>
+            </ul>
+         </div>
+        <ul class="hero__social-list footer__social-list">
+            <li class="hero__social-item footer__social-item">
+                <a href="" class="hero__social-link footer__social-link hero__social-link--1 footer__social-link--1"></a>
+            </li>
+            <li class="hero__social-item footer__social-item">
+                <a href="" class="hero__social-link  footer__social-link hero__social-link--2 footer__social-link--2"></a>
+            </li>
+            <li class="hero__social-item footer__social-item">
+                <a href="" class="hero__social-link footer__social-link hero__social-link--3 footer__social-link--3"></a>
+            </li>
+            <li class="hero__social-item footer__social-item">
+                <a href="" class="hero__social-link footer__social-link hero__social-link--4 footer__social-link--4"></a>
+            </li>
+            <li class="hero__social-item footer__social-item">
+                <a href="" class="hero__social-link footer__social-link hero__social-link--5 footer__social-link--5"></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
